@@ -1,0 +1,10 @@
+table {
+    border: 1px solid grey;
+    /*width: 100%;*/
+    width: 600px;
+}
+
+td, th {
+    border: 1px solid grey;
+    padding: 3px;
+}
