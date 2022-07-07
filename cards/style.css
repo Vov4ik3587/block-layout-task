@@ -1,0 +1,12 @@
+.list-cards {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 200px;
+    background-color: grey;
+
+}
+
+.card {
+    border: 1px solid blue;
+}
