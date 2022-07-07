@@ -1,12 +1,18 @@
 .list-cards {
     width: 600px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     flex: 1 1 200px;
     background-color: grey;
-
+    justify-content: space-between;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: inherit;
     border: 1px solid blue;
+    justify-content: space-between;
 }
