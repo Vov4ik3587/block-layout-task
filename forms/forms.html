@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <title>Формы</title>
 </head>
 <body>
-
+    <header>
+        <h1>Запись на курсы программирования</h1>
+        <hr>
+    </header>
+    <form action="#" method="post">
+        <div class="input-name">
+            <label>Имя:<br>
+            <input type="text" placeholder="Андрей">
+            </label>
+        </div>
+        <div class="pick-lang">
+            <label>
+                <input type="radio" value="java">
+                Java
+            </label>
+            <label>
+                <input type="radio" value="c++">
+                C++
+            </label>
+            <label>
+                <input type="radio" value="python">
+                Python
+            </label>
+            <label>
+                <input type="radio" value="php">
+                PHP
+            </label>
+            <label>
+                <input type="radio" value="javascript">
+                JavaScript
+            </label>
+        </div>
+        <div class="more-information">
+            <label>Дополнительная информация:<br>
+                <textarea name="addition">
+                </textarea>
+            </label>
+        </div>
+        <div class="secret-word">
+            <label>Секретное слово:<br>
+                <input type="password" value="example" required>
+            </label>
+        </div>
+        <div class="confirm-rules">
+            <label>
+                <input type="checkbox">
+                С правилами ознакомился и согласен
+            </label>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </div>
+    </form>
+    <footer>
+        <hr>
+        <p>Made by Galstyan Vladimir</p>
+    </footer>
 </body>
 </html>
