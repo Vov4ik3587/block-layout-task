@@ -1,11 +1,11 @@
 .list-cards {
-    width: 600px;
+    width: 500px;
     height: 200px;
     display: flex;
     flex-direction: row;
-    flex: 1 1 200px;
-    background-color: grey;
+    background-color: #eeeeee;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .card {
@@ -13,6 +13,25 @@
     flex-direction: column;
     width: 150px;
     height: inherit;
-    border: 1px solid blue;
+    background-color: aliceblue;
     justify-content: space-between;
+}
+
+.big-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: inherit;
+    font-size: 60pt;
+}
+
+.card-three span{
+    color: aqua;
+}
+
+.caption {
+    vertical-align: center;
+    background-color: #ffffff;
+    height: 25%;
 }
