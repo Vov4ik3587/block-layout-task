@@ -1,33 +1,46 @@
 .list-cards {
     width: 500px;
-    height: 200px;
+    height: 210px;
     display: flex;
     flex-direction: row;
     background-color: #eeeeee;
     justify-content: space-between;
-    padding: 10px;
+    padding: 3px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: inherit;
-    background-color: aliceblue;
     justify-content: space-between;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border-radius: 2px;
+    overflow: auto;
+    margin: 5px;
 }
 
 .big-number {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
     height: inherit;
     font-size: 60pt;
 }
 
-.card-three span{
-    color: aqua;
+.card-three .big-number {
+    background-color: #269f5d;
+    color: white;
+}
+
+.card-one .big-number{
+    background-color: #65c2dc;
+    color: #333333;
+}
+
+.card-two .big-number{
+    background-color: #eebc40;
+    color: #fefdfd;
 }
 
 .caption {
