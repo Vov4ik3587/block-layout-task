@@ -14,28 +14,28 @@
     <form action="#" method="post">
         <div class="input-name">
             <label>Имя:<br>
-            <input type="text" placeholder="Владимир">
+            <input type="text" name="first-name" placeholder="Владимир" required>
             </label>
         </div>
         <div class="pick-lang">
             <label>
-                <input type="radio" value="java">
+                <input type="radio" name="name-lang" value="java" checked>
                 Java
             </label>
             <label>
-                <input type="radio" value="c++">
+                <input type="radio" name="name-lang" value="c++">
                 C++
             </label>
             <label>
-                <input type="radio" value="python">
+                <input type="radio" name="name-lang" value="python">
                 Python
             </label>
             <label>
-                <input type="radio" value="php">
+                <input type="radio" name="name-lang" value="php">
                 PHP
             </label>
             <label>
-                <input type="radio" value="javascript">
+                <input type="radio" name="name-lang" value="javascript">
                 JavaScript
             </label>
         </div>
@@ -47,12 +47,12 @@
         </div>
         <div class="secret-word">
             <label>Секретное слово:<br>
-                <input type="password" value="example" required>
+                <input type="password" name="secret-word" value="example" required>
             </label>
         </div>
         <div class="confirm-rules">
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="confirm-rules" required>
                 С правилами ознакомился и согласен
             </label>
         </div>
